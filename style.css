@@ -1,0 +1,59 @@
+:root{
+    --bg-color: #852747;
+    --input-bg-color: #F5C6A5;
+    --send-color: #A2416B;
+    --a-color: #FF7777;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--bg-color);
+}
+
+.message-container{
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#message-input{
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 1px black;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    border-right: none;
+    background-color: var(--input-bg-color);
+}
+
+#send-button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    width: 65px;
+    border-radius: 50px;
+    border: solid 1px black;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    background-color: var(--send-color);
+}
+
+#send-button:active{
+    scale: .96;
+}
+
+.message-container div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: var(--a-color);
+    height: 50px;
+}
+.message-container div:nth-child(2n){
+    background-color: brown;
+}

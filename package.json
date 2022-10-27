@@ -1,0 +1,15 @@
+{
+  "name": "NEW FOLDER (3)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "socket.io": "^4.5.3"
+  }
+}
